@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "userid": 1,
+
+      "first_name": "Victoria",
+      "last_name": "Ivanova",
+      "daily_regime": [
+        {
+          "time_id": 1,
+          "time_of_day": "get_up",
+          "begin_time": "11:00:00"
+        },
+        {
+          "time_id": 2,
+          "time_of_day": "lunch",
+          "begin_time": "16:00:00"
+        },
+        {
+          "time_id": 3,
+          "time_of_day": "dinner",
+          "begin_time": "23:00:00"
+        }
+      ],
+      "tablets": [
+        {
+          "tablet_id": 1,
+          "name": "Vitamin_C",
+          "start_date": "14/10/2022",
+          "period_days": 1,
+          "time_of_day": [
+            {
+              "time_id": 1,
+              "after_time": "00:15:00"
+            },
+            {
+              "time_id": 3,
+              "after_time": "00:50:00"
+            }
+          ]
+        },
+        {
+          "tablet_id": 2,
+          "name": "Vitamin_A",
+          "start_date": "14/10/2022",
+          "period_days": 2,
+          "time_of_day": [
+            {
+              "time_id": 1,
+              "after_time": "00:15:00"
+            },
+            {
+              "time_id": 3,
+              "after_time": "00:15:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "userid": 2,
+      "first_name": "Ivan",
+      "last_name": "Ivanov",
+      "daily_regime": [
+        {
+          "time_id": 1,
+          "time_of_day": "get_up",
+          "begin_time": "09:00:00"
+        },
+        {
+          "time_id": 2,
+          "time_of_day": "dinner",
+          "begin_time": "22:00:00"
+        }
+      ],
+      "tablets": [
+        {
+          "tablet_id": 1,
+          "name": "Vitamin_C",
+          "start_date": "28/10/2022",
+          "period_days": 1,
+          "time_of_day": [
+            {
+              "time_id": 1,
+              "after_time": "00:15:00"
+            },
+            {
+              "time_id": 3,
+              "after_time": "00:15:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+/**
+  @code
+  {
+  "users": [
+    {
+      "userid": 1,
+      
+      "first_name": "Victoria",
+      "last_name": "Ivanova",
+      "daily_regime": [
+        {
+          "time_id": 1,
+          "time_of_day": "get_up",
+          "begin_time": "11:00:00"
+        },
+        {
+          "time_id": 2,
+          "time_of_day": "lunch",
+          "begin_time": "16:00:00"
+        },
+        {
+          "time_id": 3,
+          "time_of_day": "dinner",
+          "begin_time": "23:00:00"
+        }
+      ],
+      "tablets": [
+        {
+          "tablet_id": 1,
+          "name": "Vitamin_C",
+          "start_date": "14/10/2022",
+          "period_days": 1,
+          "time_of_day": [
+            {
+              "time_id": 1,
+              "after_time": "00:15:00"
+            },
+            {
+              "time_id": 3,
+              "after_time": "00:50:00"
+            }
+          ]
+        },
+        {
+          "tablet_id": 2,
+          "name": "Vitamin_A",
+          "start_date": "14/10/2022",
+          "period_days": 2,
+          "time_of_day": [
+            {
+              "time_id": 1,
+              "after_time": "00:15:00"
+            },
+            {
+              "time_id": 3,
+              "after_time": "00:15:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "userid": 2,
+      "first_name": "Ivan",
+      "last_name": "Ivanov",
+      "daily_regime": [
+        {
+          "time_id": 1,
+          "time_of_day": "get_up",
+          "begin_time": "09:00:00"
+        },
+        {
+          "time_id": 2,
+          "time_of_day": "dinner",
+          "begin_time": "22:00:00"
+        }
+      ],
+      "tablets": [
+        {
+          "tablet_id": 1,
+          "name": "Vitamin_C",
+          "start_date": "28/10/2022",
+          "period_days": 1,
+          "time_of_day": [
+            {
+              "time_id": 1,
+              "after_time": "00:15:00"
+            },
+            {
+              "time_id": 3,
+              "after_time": "00:15:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+  @endcode
+*/
